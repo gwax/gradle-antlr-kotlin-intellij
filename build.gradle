@@ -1,6 +1,6 @@
 buildscript {
     ext.antlr4_version = '4.7'
-    ext.kotlin_version = '1.1.61'
+    ext.kotlin_version = '1.2.0'
     ext.junit4_version = '4.12'
 
     repositories {
