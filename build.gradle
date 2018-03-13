@@ -36,6 +36,7 @@ generateGrammarSource {
     arguments += ["-visitor", "-long-messages"]
 }
 compileKotlin.dependsOn generateGrammarSource
+compileTestKotlin.dependsOn generateTestGrammarSource
 
 sourceSets.main.java.srcDir file("$buildDir/generated-src/antlr/main/")
 
